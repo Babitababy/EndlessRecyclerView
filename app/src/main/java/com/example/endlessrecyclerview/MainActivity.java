@@ -1,4 +1,4 @@
-package com.example.endlessnavigationbar;
+package com.example.endlessrecyclerview;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -9,8 +9,6 @@ import android.os.Bundle;
 import android.os.Handler;
 
 import java.util.ArrayList;
-
-import javax.net.ssl.SNIHostName;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -33,9 +31,10 @@ public class MainActivity extends AppCompatActivity {
     private void populateData()
     {
         int i=0;
-        for(i=0;i<20;i++)
+        while(i<20)
         {
-            rowsArrayList.add("item " + i);
+            rowsArrayList.add("ITEM " + i);
+            i++;
         }
     }
 

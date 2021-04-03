@@ -1,4 +1,4 @@
-package com.example.endlessnavigationbar;
+package com.example.endlessrecyclerview;
 
 import org.junit.Test;
 
